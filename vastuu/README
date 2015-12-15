@@ -1,0 +1,18 @@
+Built from Oscar template.
+
+sbt -Djava.library.path=lib/macos64/ run
+
+Needs access to solver libraries in lib/.
+(For glpk and lp_solve, need to do brew installs;
+ for gurobi, process is manual.)
+
+
+Some useful sbt commands are:
+ exit, compile, reload, update, clean, run-main 
+
+
+
+
+TODO: from university network,
++ grbgetkey 7e7c2f21-1ca3-f9ce-5354-566c54d4d5d8
++ Put resulting gurobi.lic in /Library/gurobi502
